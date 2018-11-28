@@ -256,22 +256,28 @@ input[type=submit] {
     font-size: 14px;
   }
   .container {
-    margin-left: 15px;
+    margin: 0;
   }
   #main-container {
+    padding-top: 15px;
     max-width: 740px;
     margin: 0 auto;   
   }
   nav {
-    width: 300px;
+    width: 250px;
     float: none;
     margin: 0 auto;
+    line-height: 55px;
   }
   .auth-image {
     width: 100%;
   }
   #logo {
     width: 100%;
+  }
+  #masthead {
+    position: static;
+    height: 150px;
   }
 }
 }

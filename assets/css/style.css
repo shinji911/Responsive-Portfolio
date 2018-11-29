@@ -230,6 +230,16 @@ input[type=submit] {
   nav {
     margin-right: 60px;
   }
+  .work {
+    position: relative;
+    float: left;
+    width: 45%;
+    margin: 20px 0 20px;
+    overflow: auto;
+  }  
+  .work:nth-child(even) {
+    margin-right: 25px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -278,6 +288,13 @@ input[type=submit] {
   #masthead {
     position: static;
     height: 150px;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 95%;
+    margin: 20px 0 20px;
+    overflow: auto;
   }
 }
 }
